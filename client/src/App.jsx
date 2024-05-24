@@ -7,6 +7,7 @@ import ProfilePage from "./routes/profilePage/profilePage";
 import Login from "./routes/login/login";
 import Register from "./routes/register/register";
 import About from "./routes/about/about";
+import Contactss from "./routes/contactss/contactss";
 import ProfileUpdatePage from "./routes/profileUpdatePage/profileUpdatePage";
 import NewPostPage from "./routes/newPostPage/newPostPage";
 import { listPageLoader, profilePageLoader, singlePageLoader } from "./lib/loaders";
@@ -43,6 +44,10 @@ function App() {
         {
           path:"/about",
           element:<About/>
+        },
+        {
+          path:"/contactss",
+          element:<Contactss/>
         }
       ],
     },

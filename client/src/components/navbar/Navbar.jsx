@@ -24,7 +24,7 @@ function Navbar() {
         <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/contactss">Contact</a>
-        <a href="/">Agents</a>
+        <a href="/agents">Agents</a>
       </div>
       <div className="right">
         {currentUser ? (

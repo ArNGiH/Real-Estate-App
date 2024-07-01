@@ -10,7 +10,7 @@ import About from "./routes/about/about";
 import Contactss from "./routes/contactss/contactss";
 import ProfileUpdatePage from "./routes/profileUpdatePage/profileUpdatePage";
 import NewPostPage from "./routes/newPostPage/newPostPage";
-import Agents from "./routes/agents/agents";
+
 import { listPageLoader, profilePageLoader, singlePageLoader } from "./lib/loaders";
 
 function App() {
@@ -49,11 +49,8 @@ function App() {
         {
           path:"/contactss",
           element:<Contactss/>
-        },
-        {
-          path:"/agents",
-          element:<Agents/>
         }
+        
         
 
 

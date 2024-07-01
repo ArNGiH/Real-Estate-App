@@ -1,0 +1,112 @@
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #f3f4f7, #ffffff);
+    color: #444;
+    font-family: 'Roboto', sans-serif;
+  
+    .contacts-header {
+      margin-bottom: 40px;
+      text-align: center;
+  
+      h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #333;
+        margin: 0;
+        
+        letter-spacing: 1.5px;
+        background: linear-gradient(135deg, #ff7e5f, #feb47b);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  
+    .contacts-content {
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+      max-width: 1200px;
+      width: 100%;
+  
+      .contact-form,
+      .contact-info {
+        flex: 1;
+        background: #ffffff;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+      }
+  
+      .contact-form {
+        h2 {
+          font-size: 2rem;
+          color: #007bff;
+          margin-bottom: 20px;
+        }
+  
+        .form-group {
+          margin-bottom: 20px;
+  
+          label {
+            display: block;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+            color: #555;
+          }
+  
+          input,
+          textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+          }
+  
+          input:focus,
+          textarea:focus {
+            border-color: #007bff;
+            outline: none;
+          }
+        }
+  
+        button {
+          padding: 10px 20px;
+          font-size: 1.1rem;
+          color: #fff;
+          background-color: #007bff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s;
+  
+          &:hover {
+            background-color: #0056b3;
+          }
+        }
+      }
+  
+      .contact-info {
+        h2 {
+          font-size: 2rem;
+          color: #007bff;
+          margin-bottom: 20px;
+        }
+  
+        p {
+          font-size: 1.1rem;
+          line-height: 1.8;
+          color: #555;
+          margin-bottom: 10px;
+  
+          strong {
+            color: #333;
+          }
+        }
+      }
+    }
+  }
+  
